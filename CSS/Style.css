@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.imgparcours {
+    float: right;
+    margin-top: 0%;
+}
+
+.imgparcours>img {
+    width: 500px;
+}
+
+body {
+    background-color: #F5F6F8;
+    color: #4B5563;
+    font-family: "Inter";
+    margin: 5%;
+}
+
+header {
+    background-color: #11171d;
+    color: #FFFFFF;
+}
+
+/* Navigation */
+header>nav>ul {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+header>nav>ul>li>a:visited {
+    color: #FFFFFF;
+}
+
+main>nav>ul>li>a:visited {
+    color: #FFFFFF;
+}
+
+header>nav>ul>li>a:link {
+    color: #FFFFFF;
+}
+
+main>nav>ul>li>a:link {
+    color: #FFFFFF;
+}
+
+main>nav>ul {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+main>nav>ul>li {
+    background-color: #1F2933;
+    width: fit-content;
+    border-radius: 12px;
+    border: #1F2933 solid;
+}
+
+main>nav>ul>li:hover {
+    translate: 5px;
+    text-decoration: underline #FFFFFF;
+    transition: 0.5s;
+    scale: 110%;
+}
+
+main>nav>ul>li:active {
+    transform: scale(75%);
+    transition: 0, 5s;
+}
+
+main nav ul li:nth-child(1)::before {
+    content: "📑";
+}
+
+main nav ul li:nth-child(2)::before {
+    content: "👤";
+}
+
+main nav ul li:nth-child(3)::before {
+    content: "👨‍🏫";
+}
+
+/* Titre */
+h1,
+h2,
+h3 {
+    color: #1A1A1A;
+}
+
+/* Lien */
+a {
+    color: #0A66C2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #084C9B;
+}
+
+/* pied de page */
+
+footer:hover {
+    background-position: right bottom;
+}
+
+footer {
+    background: linear-gradient(110deg, #111827, #111827, #111827, #111827, rgb(139, 139, 139));
+    background-size: 200% 200%;
+    height: 200px;
+    color: #FFFFFF;
+    transition: background-position 1s ease;
+}
+
+footer ul {
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    list-style: none;
+}
+
+footer .socials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .socials a {
+    font-size: 28px;
+    color: white;
+}
+
+/*Image Profil */
+.Logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Logo img {
+    width: 200px;
+    height: auto;
+    transition: 1s ease;
+}
+
+.Logo img:hover {
+    width: 250px;
+    height: auto;
+    transition: 1s ease;
+}
+
+figcaption {
+    display: none;
+}
+
+/* Section */
+main>section {
+    border: #1F2933 solid 2px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+/* border de Projet */
+.projet {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projet section {
+    background-color: #0a66c265;
+    transition: 0.5s;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.projet section:hover {
+    background-color: #084C9B;
+    transition: 0.5s;
+    color: #FFFFFF;
+    padding: 50px;
+    border-radius: 48px;
+}
+
+/*img de projet*/
+
+.projet img {
+    width: 200px;
+    height: auto;
+}
