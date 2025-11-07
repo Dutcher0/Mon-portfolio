@@ -1,0 +1,22 @@
+.imgparcours {
+    float: right;
+    margin-top: 0%;
+}
+
+.imgparcours>img {
+    width: 500px;
+}
+
+/* Titre */
+h1,
+h2,
+h3 {
+    color: #1A1A1A;
+}
+
+/* Section */
+main>section {
+    border: #1F2933 solid 2px;
+    margin-top: 50px;
+    padding: 25px;
+}

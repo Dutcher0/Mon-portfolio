@@ -1,17 +1,3 @@
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-.imgparcours {
-    float: right;
-    margin-top: 0%;
-}
-
-.imgparcours>img {
-    width: 500px;
-}
-
 body {
     background-color: #F5F6F8;
     color: #4B5563;
@@ -22,6 +8,11 @@ body {
 header {
     background-color: #11171d;
     color: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Navigation */
@@ -89,13 +80,6 @@ main nav ul li:nth-child(3)::before {
     content: "👨‍🏫";
 }
 
-/* Titre */
-h1,
-h2,
-h3 {
-    color: #1A1A1A;
-}
-
 /* Lien */
 a {
     color: #0A66C2;
@@ -160,43 +144,4 @@ footer .socials a {
 
 figcaption {
     display: none;
-}
-
-/* Section */
-main>section {
-    border: #1F2933 solid 2px;
-    margin-top: 50px;
-    padding: 25px;
-}
-
-/* border de Projet */
-.projet {
-    margin-right: 20px;
-    margin-left: 20px;
-    width: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.projet section {
-    background-color: #0a66c265;
-    transition: 0.5s;
-    border-radius: 12px;
-    padding: 10px;
-}
-
-.projet section:hover {
-    background-color: #084C9B;
-    transition: 0.5s;
-    color: #FFFFFF;
-    padding: 50px;
-    border-radius: 48px;
-}
-
-/*img de projet*/
-
-.projet img {
-    width: 200px;
-    height: auto;
 }
