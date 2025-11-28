@@ -11,7 +11,7 @@
 h1,
 h2,
 h3 {
-    color: #1A1A1A;
+    margin-left: 20px;
 }
 
 /* Section */
@@ -19,4 +19,10 @@ main>section {
     border: #1F2933 solid 2px;
     margin-top: 50px;
     padding: 25px;
+}
+
+/* Paragraphe*/
+
+p {
+    margin-left: 20px;
 }

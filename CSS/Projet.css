@@ -9,14 +9,14 @@
 }
 
 .projet section {
-    background-color: #0a66c265;
+    background-color: var(--backgroundcolor);
     transition: 0.5s;
     border-radius: 12px;
     padding: 10px;
 }
 
 .projet section:hover {
-    background-color: #084C9B;
+    background-color: var(--backgroundcolorhover);
     transition: 0.5s;
     color: #FFFFFF;
     padding: 50px;

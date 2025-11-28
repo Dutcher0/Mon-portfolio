@@ -150,5 +150,5 @@ figcaption {
 h1,
 h2,
 h3 {
-    color: #1A1A1A;
+    color: var(--Titrecolor);
 }
