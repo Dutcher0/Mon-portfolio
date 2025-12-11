@@ -1,0 +1,38 @@
+/* border de Projet */
+.projet {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projet section {
+    background-color: var(--backgroundcolor);
+    transition: 0.5s;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.projet section:hover {
+    background-color: var(--backgroundcolorhover);
+    transition: 0.5s;
+    color: #FFFFFF;
+    padding: 50px;
+    border-radius: 48px;
+}
+
+/* Section */
+main>a>section {
+    border: #1F2933 solid 2px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+/*img de projet*/
+
+.projet img {
+    width: 200px;
+    height: auto;
+}

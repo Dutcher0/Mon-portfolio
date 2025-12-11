@@ -1,0 +1,72 @@
+/* Texte a droite*/
+.droite {
+    display: flex;
+}
+
+.droite>section {
+    font-size: 25px;
+    color: black;
+}
+
+main section {
+    border: #1F2933 solid 2px;
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 5%;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    /* Enlève décalage défaut listes */
+}
+
+main ul li {
+    list-style: none;
+    margin: 25px;
+    width: 250px
+}
+
+
+/*les bordures et la couleur*/
+main ul li a {
+    display: block;
+    border: #1F2933 solid 2px;
+    border-radius: 10%;
+    background-color: var(--backgroundcolor);
+    transition: 1s;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+/*titre dans carte */
+main ul li h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*image */
+.imgbas {
+    width: 70%;
+    height: auto;
+    transition: 1s;
+    display: block;
+    margin: 0 auto;
+    /* Centre l'image horizontalement */
+}
+
+/* --- ANIMATIONS (HOVER) --- */
+
+/*change la couleur de fond */
+main ul li a:hover {
+    background-color: var(--backgroundcolorhover);
+    transition: 1s;
+}
+
+/*image grandit */
+main ul li a:hover .imgbas {
+    width: 100%;
+    transition: 1s;
+}
