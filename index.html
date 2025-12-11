@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Portfolio - Benjamin Langlet</title>
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="CSS/Index.css">
     <link rel="stylesheet" href="CSS/Var.css">
@@ -14,29 +14,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
-
-
 <body>
-    <header role="banner">
+    <header>
         <section class="Logo">
             <figure>
-                <a href="index.html"><img src="Images/IMG profil.png" alt="Image profil" img></a>
+                <a href="index.html"><img src="Images/IMG profil.png" alt="Photo de profil de Benjamin Langlet"></a>
                 <figcaption>Image profil</figcaption>
             </figure>
         </section>
-        <nav>
+
+        <nav aria-label="Navigation principale">
             <ul>
-                <li><a href="index.html"> Accueil </a></li>
+                <li><a href="index.html" aria-current="page"> Accueil </a></li>
                 <li><a href="projet.html"> Projets </a></li>
                 <li><a href=""> Autre </a></li>
             </ul>
         </nav>
     </header>
 
-
-
-    <main role="main">
-        <nav role="navigation" aria-valuetext="Navigation">
+    <main>
+        <nav aria-label="Sommaire">
             <ul>
                 <li><a href="#Presentation">Presentation</a></li>
                 <li><a href="#apropos">A propos</a></li>
@@ -44,7 +41,7 @@
             </ul>
         </nav>
 
-        <section role="doc-introduction" aria-valuetext="Présentation" id="presentation">
+        <section id="presentation">
             <h2>Presentation</h2>
             <p>
                 Actuellement étudiant a <a href="https://www.univ-littoral.fr">ulco </a> en Licence Informatique, en
@@ -56,7 +53,7 @@
             </p>
         </section>
 
-        <section role="contentinfo" aria-valuetext="A propos" id="apropos">
+        <section id="apropos">
             <h2 id="iconpropos">A propos</h2>
             <p>
                 Je m'appelle Langlet Benjamin, j'ai 23 ans et actuellement en licence informatique a l'ulco de Calais.
@@ -67,18 +64,18 @@
             </p>
         </section>
 
-        <section role="contentinfo" aria-valuetext="mon parcours" id="monparcours">
+        <section id="monparcours">
             <h2>Mon parcours</h2>
 
             <article>
 
                 <figure class="imgparcours">
-                    <img src="Images/parcours.jpg" alt="Image mon parcours">
+                    <img src="Images/parcours.jpg" alt="Illustration de mon parcours">
                     <figcaption>Image mon parcours</figcaption>
                 </figure>
 
                 <section>
-                    <h3 role="list" aria-valuetext="Parcours Scolaire">Scolaire</h3>
+                    <h3>Scolaire</h3>
                     <ul>
                         <li><strong>xxxx-xxxx</strong> College Garspard Malo</li>
                         <li><strong>xxxx-xxxx</strong> Lycée Angellier STL Spé Biologie</li>
@@ -89,7 +86,7 @@
                 </section>
 
                 <section>
-                    <h3 role="list" aria-valuetext="Parcours professionel">Professionel</h3>
+                    <h3>Professionel</h3>
                     <ul>
                         <li><strong>xxxx-xxxx</strong> Job été restauration Coconut / employée polyvalent</li>
                         <li><strong>xxxx-xxxx</strong> Job étudiant Leclerc Rosendael / employée polyvalent</li>
@@ -100,7 +97,7 @@
                 </section>
 
                 <section>
-                    <h3 role="list" aria-valuetext="Qualification">Qualification</h3>
+                    <h3>Qualification</h3>
                     <ul>
                         <li><strong>xxxx-xxxx</strong> Brevet des Colleges</li>
                         <li><strong>xxxx-xxxx</strong> Bac Thecnologique Spécialité Biologie</li>
@@ -112,7 +109,6 @@
 
         </section>
     </main>
-
 
     <footer>
         <ul>
