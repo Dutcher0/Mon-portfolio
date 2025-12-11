@@ -67,6 +67,6 @@ main ul li a:hover {
 
 /*image grandit */
 main ul li a:hover .imgbas {
-    width: 50%;
+    width: 80%;
     transition: 1s;
 }
