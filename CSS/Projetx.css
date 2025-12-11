@@ -1,5 +1,4 @@
-/* Texte a droite */
-
+/* Texte a droite*/
 .droite {
     display: flex;
 }
@@ -16,46 +15,58 @@ main section {
     border-radius: 5%;
 }
 
-/* img bas */
-
-main ul a li {
-    border: #1F2933 solid 2px;
-    margin-top: 50px;
-    margin: 25px;
-    list-style: none;
-    justify-content: center;
-    border-radius: 10%;
-
-}
-
-.imgbas {
-    width: 75%;
-    height: auto;
-    transition: 1s;
-}
-
-.imgbas:hover {
-    transition: 1s;
-    width: 100%;
-    height: auto;
-}
-
 main ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    /* Enlève décalage défaut listes */
 }
 
+main ul li {
+    list-style: none;
+    margin: 25px;
+    width: 250px
+}
+
+
+/*les bordures et la couleur*/
+main ul li a {
+    display: block;
+    border: #1F2933 solid 2px;
+    border-radius: 10%;
+    background-color: var(--backgroundcolor);
+    transition: 1s;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+/*titre dans carte */
 main ul li h2 {
     text-align: center;
+    margin-top: 20px;
 }
 
-/* transition color */
+/*image */
+.imgbas {
+    width: 70%;
+    height: auto;
+    transition: 1s;
+    display: block;
+    margin: 0 auto;
+    /* Centre l'image horizontalement */
+}
 
-main ul a li {
-    background-color: var(--backgroundcolor);
+/* --- ANIMATIONS (HOVER) --- */
+
+/*change la couleur de fond */
+main ul li a:hover {
+    background-color: var(--backgroundcolorhover);
     transition: 1s;
 }
 
-main ul a li:hover {
-    background-color: var(--backgroundcolorhover);
+/*image grandit */
+main ul li a:hover .imgbas {
+    width: 50%;
     transition: 1s;
 }
