@@ -7,12 +7,12 @@ body {
 
 header {
     background-color: #11171d;
-    color: #FFFFFF;
 }
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 
 /* Navigation */
@@ -22,6 +22,7 @@ header>nav>ul {
     justify-content: space-around;
     list-style: none;
     padding-bottom: 20px;
+
 }
 
 header>nav>ul>li>a:visited {
